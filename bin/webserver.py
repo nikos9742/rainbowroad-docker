@@ -3,7 +3,7 @@ from BaseHTTPServer import BaseHTTPRequestHandler,HTTPServer
 import sys
 import pickacolor
 
-PORT_NUMBER = 8001
+PORT_NUMBER = 80
 
 if len(sys.argv) > 1:
 	print sys.argv
